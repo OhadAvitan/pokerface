@@ -1,0 +1,19 @@
+C-Clubs (♣),
+D-Diamonds (♦),
+H-Hearts (♥),
+S-Spades (♠).
+
+
+card size
+63.5mm X 88.9mm
+
+88.9/63.5=1.4
+
+
+Home = new game
+
+
+charCodeAt('♣') = 9827
+charCodeAt('♦') = 9830
+charCodeAt('♥') = 9829
+charCodeAt('♠') = 9824

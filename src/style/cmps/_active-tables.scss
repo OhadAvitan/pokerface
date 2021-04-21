@@ -1,0 +1,24 @@
+.table-list {
+  color: black;
+  margin: auto;
+  max-width: 600px;
+  height: 450px;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+
+  .table-preview {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 0 5px;
+    border: 2px solid rgb(70, 70, 70);
+    button {
+      padding: 10px 20px;
+      margin: 4px;
+      background-color: $clr1;
+      color: whitesmoke;
+      font-weight: 700;
+      border: 0;
+    }
+  }
+}

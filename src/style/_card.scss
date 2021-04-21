@@ -1,0 +1,29 @@
+.card {
+    // position: relative;
+    .card-wrap{
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+    }
+    // padding: 10px;
+    width: 100px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 0.8rem;
+    // background-color: rgb(189, 15, 15);
+    color: rgb(194, 16, 16);
+    background-color: rgb(250, 250, 250);
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.55);
+    font-size: 1.8rem;
+    // letter-spacing: -4px;
+    p {
+        text-align: left;
+        margin: -4px 0 0 5px;
+        font-weight: 700;
+        &:last-of-type {
+            margin: -14px 0 0 5px;
+            font-size: 2.2rem;
+        }
+    }
+}
